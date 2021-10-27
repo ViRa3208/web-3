@@ -52,7 +52,7 @@ display: flex;
     justify-content: center;
 }
 
-@media (max-width: 480px) {
+@media sreen and (max-width: 480px) {
     .container {
         width: 320px;
         margin: auto;
@@ -77,7 +77,7 @@ display: flex;
     }
 }
 
-@media (min-width: 480px) and (max-width: 992px) {
+@media screen and (min-width: 480px) and (max-width: 992px) {
     .body {
         width: 750px;
         margin: auto;
