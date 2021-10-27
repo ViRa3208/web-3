@@ -57,23 +57,26 @@ display: flex;
         max-width: 320px;
         margin: auto;
     }
+	.header{
+	order: 1;	
+	}
     .nav {
         display: flex;
         flex-direction: column;
-        order: 1;
+        order: 2;
         height: 40px;
     }
     .links {
-        order: 2;
-    }
-    .tab {
-        order: 4;
-    }
-    .forma {
         order: 3;
     }
-    .footer {
+    .tab {
         order: 5;
+    }
+    .forma {
+        order: 4;
+    }
+    .footer {
+        order: 6;
     }
 }
 
