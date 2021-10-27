@@ -77,12 +77,3 @@ display: flex;
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 992px) {
-    .body {
-        width: 750px;
-        margin: auto;
-    }
-    .nav {
-        height: 20px;
-    }
-}
